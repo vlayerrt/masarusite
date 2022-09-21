@@ -12,8 +12,42 @@ body {
     line-height: 44px;
     margin: 0;
 }
+
+::selection {
+    background: #f22f20; /* Safari */
+    color: aliceblue;
+    }
 footer {
-    font-size: 16px;
+    font-size: 14px;
+    background-color: #11141a;
+}
+.footblock {
+    display: flex;
+    justify-content: space-between;
+    max-height: 50;
+}
+footer a {
+    color: white;
+}
+.footlist {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    padding-inline-start: 0px;
+}
+.footlist a {
+    text-decoration: none;
+
+}
+.footnav li {
+    display: flex;
+    padding-right: 30px;
+    align-items: center;
+}
+.policy a {
+    padding-left: 15px;
+
 }
 .row {
     display: flex;
@@ -21,17 +55,12 @@ footer {
     margin-right: -15px;
     margin-left: -15px;
 }
-.col-xl-auto {
-    flex: 0 0 auto;
-    width: auto;
-    max-width: 100%;
-}
-
 section {
     padding: 0 327px;
 }
 header {
     background-color: #272b33;
+    margin-bottom: 50;
 }
 .header {
     display: flex;
@@ -71,7 +100,6 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 50 0;
 }
 .logo{
     background-image: url(media/logo1.png);
@@ -100,4 +128,7 @@ h2 {
 }
 .title span{
     color: white;
+}
+.pagetext {
+    padding-left: 25px;
 }
