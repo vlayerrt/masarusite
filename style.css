@@ -1,15 +1,33 @@
-html {
+@font-face {
+    font-family: "NVIDIA";
+    font-style: normal;
+    font-weight: 300;
+    
+    src: url("fonts/ans_W_Lt.woff") format("woff")}
+body {
     background-color: #0a0c10;
     color: aliceblue;
+    font-size: 22px;
+    font-family: NVIDIA,Arial,Helvetica,Sans-Serif;
+    line-height: 44px;
+    margin: 0;
+}
+section {
+    padding: 0 327px;
 }
 header {
     background-color: #272b33;
 }
 .header {
-    height: 70px;
     display: flex;
     justify-content: center;
     margin: auto;
+}
+h2 {
+    text-align: center;
+}
+.afterlogo {
+    
 }
 .navlist {
     justify-content: space-between;
@@ -19,25 +37,22 @@ header {
     align-items: center;
 }
 .navlist li {
-    padding: 20px;
+    padding: 0 20px;
+    margin: auto;
 }
 .navlist a {
-    padding: 15px;
     text-decoration: none;
     color: white;
 }
-.navlist a:hover {
-    background-color: ;
+.navlist li:hover {
+    background-color: #030303;
 }
-body {
-    margin: 0;
-}
-.header {}
-.container {
-    width: 1265px;
-    margin: 0px auto;
-}
+
 .main{}
+.maininfo {
+    display: flex;
+    flex-direction: column;
+}
 .head-logo{
     display: flex;
     justify-content: center;
