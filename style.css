@@ -88,7 +88,6 @@ h2 {
 .navlist li:hover {
     background-color: #030303;
 }
-
 .main{}
 .maininfo {
     display: flex;
@@ -130,5 +129,41 @@ h2 {
     color: white;
 }
 .pagetext {
-    padding-left: 25px;
+   /* padding-left: 25px;*/
+}
+.teamblock {
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    line-height:normal;
+}
+.teamblock h3{
+    margin: auto;
+}
+.teamblock h4{
+    margin: auto;
+}
+.teamimg {
+    margin-right: 15px;
+    width: 20%;
+    height: auto;
+    float: left;
+}
+.teamimgright {
+    float: right;
+    margin-left: 15px;
+    width: 20%;
+    height: auto;
+
+}
+.teamperson {
+    margin: 100px 0;
+}
+.caption {
+    text-align: center;
+}
+.personinfo {
+    width: auto;
+    text-align: justify;
+
 }
