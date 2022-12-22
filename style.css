@@ -20,6 +20,7 @@ body {
 footer {
     font-size: 14px;
     background-color: #11141a;
+    margin-top: 50px;
 }
 .footblock {
     display: flex;
@@ -67,9 +68,6 @@ header {
     justify-content: center;
     margin: auto;
 }
-h2 {
-    text-align: center;
-}
 .navlist {
     justify-content: space-between;
     display: flex;
@@ -88,7 +86,9 @@ h2 {
 .navlist li:hover {
     background-color: #030303;
 }
-.main{}
+.main{
+    min-height: 1080px;
+}
 .maininfo {
     display: flex;
     flex-direction: column;
@@ -120,16 +120,34 @@ h2 {
 }
 .title {
     text-align: center;
-    color: #e43034;
+    color: #ffffff;
     display: flex;
     font-size: 70px;
     justify-content: center;
+}
+span
+{
+    
+    color: #e43034 !important;
 }
 .title span{
     color: white;
 }
 .pagetext {
-   /* padding-left: 25px;*/
+   margin-bottom: 50px;
+
+}
+.mistimg{
+    border: 4mm ridge #28526b;
+    border-radius: 20px;
+    margin: 20px;
+}
+#misttext {
+    display: block;
+    margin-top: 0;
+}
+.aligncenter {
+    text-align: center;
 }
 .teamblock {
     width: 100%;
@@ -146,24 +164,51 @@ h2 {
 .teamimg {
     margin-right: 15px;
     width: 20%;
-    height: auto;
+    height: 400px;
     float: left;
 }
 .teamimgright {
     float: right;
     margin-left: 15px;
     width: 20%;
-    height: auto;
-
+    height: 400px;
 }
 .teamperson {
-    margin: 100px 0;
+    margin: 70px 0;
+    display: inline;
+    float: left;
 }
-.caption {
+#caption {
     text-align: center;
 }
 .personinfo {
     width: auto;
     text-align: justify;
 
+}
+.teammedia {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 30px;
+    position: relative;
+    align-items: center;
+}
+.mediaimg {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 25px;
+    max-width: 400px;
+    border: thick double #28526b;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.map {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
 }
