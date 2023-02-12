@@ -46,7 +46,7 @@
                       <hr>
                   
                       <label for="login"><b>Username</b></label>
-                      <input type="text" placeholder="Enter Username" name="login" id="login" required value="<?=$_POST['login']?>">
+                      <input type="text" placeholder="Enter Username" name="login" id="login" required>
 
                       <label for="email"><b>Email</b></label>
                       <input type="text" placeholder="Enter Email" name="email" id="email" required>
@@ -78,6 +78,9 @@
                       <p>Already have an account? <a href="loginpage.php">Sign in</a>.</p>
                     </div>
                   </form>
+                  <script src="js/jquery-3.6.3.min.js"></script>
+                  <script src="js/main.js"></script>
+
                 </div>       
     </div>
         </section>
