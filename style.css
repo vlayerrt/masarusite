@@ -25,7 +25,6 @@ footer {
 .footblock {
     display: flex;
     justify-content: space-between;
-    max-height: 50;
 }
 footer a {
     color: white;
@@ -196,7 +195,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 100%;
+    width: 110%;
     padding: 0 30px;
     position: relative;
     align-items: center;
@@ -275,11 +274,31 @@ hr {
   opacity:1;
 }
 
+.error_message {
+    display: block;
+    font-size: 20px;
+    border-radius: 1px;
+    border: #e43034 solid 2px;
+    margin: 25px auto;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+}
+.succ_message {
+    display: block;
+    font-size: 20px;
+    border-radius: 1px;
+    border: #28526b solid 2px;
+    margin: 25px auto;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+}
 a {
   color: white;
 }
 
-/* Set a grey background color and center the text of the "sign in" section */
+/*  center the text of the "sign in" section */
 .signin {
   text-align: center;
 }
