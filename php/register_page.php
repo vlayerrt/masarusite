@@ -31,7 +31,7 @@
         exit();
     }
     else if(strlen($psw) < 5 || strlen($psw) > 99) {
-        $_SESSION['message'] = "Minimum password length is 5.)";
+        $_SESSION['message'] = "Minimum password length is 5.";
         header('Location: ../regpage.php');
         exit();
     }
